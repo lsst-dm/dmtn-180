@@ -43,4 +43,4 @@ jobs:
           LTD_PASSWORD: ${{ secrets.LTD_PASSWORD }}
           LTD_USERNAME: ${{ secrets.LTD_USERNAME }}
         run: |
-          lander --upload --pdf DMTN-180.pdf --ltd-product dmtn-180 --title "DEx1: The First LSST-MPC Data Exchange Challenge Report" --authors "[\"Juric, Holman et al\"]"
+          lander --upload --pdf DMTN-180.pdf --ltd-product dmtn-180 --title "DEx1: The First LSST-MPC Data Exchange Challenge Report"
